@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- META DATA -->
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sash – Bootstrap 5  Admin & Dashboard Template">
+    <meta name="author" content="Spruko Technologies Private Limited">
+    <meta name="keywords"
+        content="admin,admin dashboard,admin panel,admin template,bootstrap,clean,dashboard,flat,jquery,modern,responsive,premium admin templates,responsive admin,ui,ui kit.">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/brand/Binarex-Logo-black.png" />
+
+    <!-- TITLE -->
+    <title>Binarex</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link id="style" href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- STYLE CSS -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
+
+    <!--- FONT-ICONS CSS -->
+    <link href="../assets/css/icons.css" rel="stylesheet" />
+
+    <!-- COLOR SKIN CSS -->
+    <link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/colors/color1.css" />
+
+    <!-- Fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="app sidebar-mini ltr landing-page horizontal">
+
+    <!-- GLOBAL-LOADER -->
+    <div id="global-loader">
+        <img src="../assets/images/loader.svg" class="loader-img" alt="Loader">
+    </div>
+    <!-- /GLOBAL-LOADER -->
+
+    <!-- PAGE -->
+    <div class="page">
+        <div class="page-main">
+
+            <!-- app-Header -->
+            <div class="app-header header">
+                <div class="container-fluid main-container">
+                    <div class="d-flex">
+                        <a aria-label="Hide Sidebar" class="app-sidebar__toggle" data-bs-toggle="sidebar"
+                            href="javascript:void(0)"></a>
+                        <!-- sidebar-toggle-->
+                        <a class="logo-horizontal " href="#">
+                            <img src="../assets/images/brand/Binarex-Logo-black.png"
+                                class="header-brand-img desktop-logo" alt="logo"/>
+                            <!-- <img src="../assets/images/brand/Binarex-Logo-black.png"
+                                class="header-brand-img light-logo-2" alt="logo"/> -->
+                        </a>
+                        <!-- LOGO -->
+                        <div class="d-flex order-lg-2 ms-auto header-right-icons">
+                            <button class="navbar-toggler navresponsive-toggler d-lg-none ms-auto" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-4"
+                                aria-controls="navbarSupportedContent-4" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon fe fe-more-vertical"></span>
+                            </button>
+                            <div class="navbar navbar-collapse responsive-navbar p-0">
+                                <div class="collapse navbar-collapse bg-white px-0" id="navbarSupportedContent-4">
+                                    <!-- SEARCH -->
+                                    <div class="header-nav-right p-5">
+                                        <a href="register.html" class="btn ripple btn-min w-sm btn-outline-primary me-2"
+                                            target="_blank">New User
+                                        </a>
+                                        <a href="login.html" class="btn ripple btn-min w-sm btn-primary me-2"
+                                            target="_blank">Login
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /app-Header -->
+
+            <div class="landing-top-header overflow-hidden">
+                <div class="top sticky overflow-hidden">
+                    <!--APP-SIDEBAR-->
+                    <div class="app-sidebar__overlay" data-bs-toggle="sidebar"></div>
+                    <div class="app-sidebar bg-transparent">
+                        <div class="container">
+                            <div class="row">
+                                <div class="main-sidemenu navbar px-0">
+                                    <a class="navbar-brand ps-0 d-none d-lg-block" href="#">
+                                        <img alt="" class="logo-2" src="../assets/images/brand/Binarex-Logo-black.png">
+                                    </a>
+                                    <div class="slide-left disabled" id="slide-left"><svg
+                                            xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z" />
+                                        </svg></div>
+                                    <ul class="side-menu">
+                                        <li class="slide">
+                                            <a class="side-menu__item active
+                                            external nav nav-link" data-bs-toggle="slide" href="/landing-page.html">
+                                                <span
+                                                    class="side-menu__label">Home</span></a>
+                                        </li>
+                                        <li class="slide">
+                                            <a class="side-menu__item nav-link dropdown-toggle" data-bs-toggle="slide" 
+                                            id="navbarDropdownMenu"
+                                            role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false" aria-label="Toggle navigation"href="#Services"><span
+                                                    class="side-menu__label"> Our Services</span></a>
+                                                    <ul class="dropdown-menu"
+                                                    aria-labelledby="navbarDropdownMenu">
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">
+                                                            Binarex Robots
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                        </li>
+                                        <li class="slide nav-item dropdown">
+                                            <a class="side-menu__item" 
+                                            href="#About"><span
+                                                    class="side-menu__label">Remmitance</span></a>
+                                        </li>
+                                        <li class="slide">
+                                            <a class="side-menu__item" data-bs-toggle="slide" href="#Faqs"><span
+                                                    class="side-menu__label">Faq's</span></a>
+                                        </li>
+                                        <li class="slide">
+                                            <a class="side-menu__item external nav" data-bs-toggle="slide" href="/contact.html"><span
+                                                    class="side-menu__label">Contact</span></a>
+                                        </li>
+                                    </ul>
+                                    <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg"
+                                            fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z" />
+                                        </svg></div>
+                                    <div class="header-nav-right d-none d-lg-block">
+                                        <a href="register.html" class="btn ripple btn-min w-sm btn-outline-primary me-2"
+                                            target="_blank">Login
+                                        </a>
+                                        <a href="login.html" class="btn ripple btn-min w-sm btn-primary me-2"
+                                            target="_blank">Register
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/APP-SIDEBAR-->
+                </div>
+            </div>
+
+            <!--app-content open-->
+            <div class="main-content mt-0">
+                <div class="side-app">
+
+                    <!-- CONTAINER -->
+                    <div class="main-container">
+                        <div class="">
+                            <!-- Contact Page -->
+                            <div class="bg-image-landing section pb-0" id="Contact">
+                                <div class="container">
+                                    <div class="">
+                                        <div class="card card-shadow reveal">
+                                            <h2 class="text-center fw-semibold mb-0 mt-2">Get in Touch with <span
+                                                    class="text-primary">US.</span></h2>
+                                            <div class="card-body p-5 pb-6 text-dark">
+                                                <div class="statistics-info p-4">
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-lg-9">
+                                                            <div class="mt-3">
+                                                                <div class="text-dark">
+                                                                    <div class="services-statistics reveal my-5">
+                                                                        <div class="row text-center">
+                                                                            <div class="col-xl-3 col-md-6 col-lg-6">
+                                                                                <div class="card">
+                                                                                    <div class="card-body p-0">
+                                                                                        <div class="counter-status">
+                                                                                            <div
+                                                                                                class="counter-icon bg-primary-transparent box-shadow-primary">
+                                                                                                <i
+                                                                                                    class="fe fe-map-pin text-primary fs-23"></i>
+                                                                                            </div>
+                                                                                            <h4
+                                                                                                class="mb-2 fw-semibold">
+                                                                                                Main Branch</h4>
+                                                                                            <p>San Francisco, CA </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-xl-3 col-md-6 col-lg-6">
+                                                                                <div class="card">
+                                                                                    <div class="card-body p-0">
+                                                                                        <div class="counter-status">
+                                                                                            <div
+                                                                                                class="counter-icon bg-secondary-transparent box-shadow-secondary">
+                                                                                                <i
+                                                                                                    class="fe fe-headphones text-secondary fs-23"></i>
+                                                                                            </div>
+                                                                                            <h4
+                                                                                                class="mb-2 fw-semibold">
+                                                                                                Phone</h4>
+                                                                                                <p>
+                                                                                                <a href="tel:+18175122820"
+                                                                                                class="text-dark">
+                                                                                                +1(817)5122820
+                                                                                            </a>
+                                                                                                </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-xl-3 col-md-6 col-lg-6">
+                                                                                <div class="card">
+                                                                                    <div class="card-body p-0">
+                                                                                        <div class="counter-statuss">
+                                                                                            <div
+                                                                                                class="counter-icon bg-success-transparent box-shadow-success">
+                                                                                                <i
+                                                                                                    class="fe fe-mail text-success fs-23"></i>
+                                                                                            </div>
+                                                                                            <h4
+                                                                                                class="mb-2 fw-semibold">
+                                                                                                Contact</h4>
+                                                                                                <p>
+                                                                                                    <a href="mailto:support@binarex.biz"
+                                                                                                    class="text-dark">
+                                                                                                        support@binarex.biz
+                                                                                                    </a>
+                                                                                                </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-xl-3 col-md-6 col-lg-6">
+                                                                                <div class="card">
+                                                                                    <div class="card-body p-0">
+                                                                                        <div class="counter-status">
+                                                                                            <div
+                                                                                                class="counter-icon bg-danger-transparent box-shadow-danger">
+                                                                                                <i
+                                                                                                    class="fe fe-airplay text-danger fs-23"></i>
+                                                                                            </div>
+                                                                                            <h4
+                                                                                                class="mb-2 fw-semibold">
+                                                                                                Working Hours</h4>
+                                                                                            <p class="mb-0">Monday -
+                                                                                                Friday: 9am - 6pm</p>
+                                                                                            <p>Saturday - Sunday: Holiday
+                                                                                            </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row bg-white shadow-sm mb-4 p-3">
+                                        <div class="col-lg-6 pb-3 px-4">
+                                            <form class="form-horizontal reveal revealrotate m-t-20"
+                                                action="index.html">
+                                                <div class="form-group">
+                                                    <div class="col-xs-12">
+                                                        <input class="form-control" type="text"
+                                                            required="" placeholder="Username*">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-xs-12">
+                                                        <input class="form-control" type="email"
+                                                            required="" placeholder="Email*">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-xs-12">
+                                                        <textarea class="form-control"
+                                                            rows="5">Your Comment*</textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <a href="javascript:void(0)"
+                                                        class="btn btn-primary btn-rounded  waves-effect waves-light">Submit</a>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="col-lg-6 reveal revealrotate m-t-20">
+                                            <h1 class="mb-0">Online Inquiry</h1>
+                                            <p class="mb-2 pb-4">
+                                                Get in touch with our experts in the field to answer
+                                                any of your questions.
+                                            </p>
+                                            <div class="d-flex space-x-4 ">
+                                                <div class='me-2'>
+                                                    <div class='d-flex text-align:center'>
+                                                        <i class="fa-solid fa-envelope-open fa-2xl mt-2 me-3"></i>
+                                                        <h4 class="fs-4 fw-bold">Office Email</h4>
+                                                    </div>
+                                                    <p class="text-dark me-2 ">
+                                                        <a href="mailto:support@binarex.biz" class="text-dark me-2">
+                                                            support@binarex.biz
+                                                        </a>
+                                                        <a href="mailto:sales@binarex.biz" class="text-dark">
+                                                            sales@binarex.biz
+                                                        </a>
+                                                    </p>
+                                                    
+                                                </div>
+
+                                                <div>
+                                                    <div class="d-flex mb-0">
+                                                        <i class="fa-solid fa-headset fa-2xl mt-3 fa-bold me-3"></i>
+                                                        <h3 class="fs-4 fw-bold mb-4">Customer Support</h3>
+                                                        
+                                                    </div>
+                                                    <p>(WhatsApp, Telegram & SMS only)</p>
+                                                    <p>
+                                                        Texas: <a href="tel:+18175122820">+1(817)5122820</a>
+                                                    </p>
+                                                    <p>
+                                                        Poland: <a href="tel:+48732231344">+48732231344</a>
+                                                    </p>
+                                                    <p>
+                                                        UK: <a href="tel:+447362026508">+447362026508</a>
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER OPEN -->
+        <div class="demo-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="top-footer">
+                                <div class="row">
+                                    <div class="col-lg-5 col-sm-12 col-md-12 reveal revealleft">
+                                        <h6>Binarex</h6>
+                                        <p>
+                                            Make incredible income through our over 99% reliable <b>Binarex</b> robot.
+                                        </p>
+                                        <p class="mb-5 mb-lg-2">
+                                            Are you an individual seeking to know what next to do with that fund
+                                            to churn in commensurate returnds to fund a cool lifestyle? Are you
+                                            a financial co-operative desiring to make profit of 10 months in just
+                                            a number of weeks? Are you a company desiring to boost the revenue
+                                            base of your company? Our services are for you.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-md-4 reveal revealleft">
+                                        <h6>Quick Links</h6>
+                                        <ul class="list-unstyled mb-5 mb-lg-0">
+                                            <li><a href="#">Binarex Agric Ebook</a></li>
+                                            <li><a href="#">Financial & Green Consultancy</a></li>
+                                            <li><a href="#">Account Management</a></li>
+                                            <li><a href="#">WhatsApp Bulk Message Sender</a></li>
+                                            <li><a href="#">Binarex Robots</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-4 reveal revealleft">
+                                        <div class="">
+                                            <p class="fw-semibold fs-5">Subscribe to Newsletter</p>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Enter your email"
+                                                        aria-label="Example text with button addon"
+                                                        aria-describedby="button-addon1">
+                                                    <button class="btn btn-primary" type="button"
+                                                        id="button-addon2">Submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btn-list mt-6">
+                                            <button type="button" class="btn btn-icon rounded-pill"><i
+                                                    class="fa fa-facebook"></i></button>
+                                            <button type="button" class="btn btn-icon rounded-pill"><i
+                                                    class="fa fa-youtube"></i></button>
+                                            <button type="button" class="btn btn-icon rounded-pill"><i
+                                                    class="fa fa-twitter"></i></button>
+                                            <button type="button" class="btn btn-icon rounded-pill"><i
+                                                    class="fa fa-instagram"></i></button>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="main-footer px-0 pb-0 text-center">
+                                <div class="row ">
+                                    <div class="col-md-12 col-sm-12">
+                                        &copy; <span id="year"></span> <a href="javascript:void(0)">Binarex</a>.
+                                        All rights reserved.
+                                    </div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER CLOSED -->
+    </div>
+
+    <!-- BACK-TO-TOP -->
+    <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <!-- JQUERY JS -->
+    <script src="../assets/js/jquery.min.js"></script>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="../assets/plugins/bootstrap/js/popper.min.js"></script>
+    <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- COUNTERS JS-->
+    <script src="../assets/plugins/counters/counterup.min.js"></script>
+    <script src="../assets/plugins/counters/waypoints.min.js"></script>
+    <script src="../assets/plugins/counters/counters-1.js"></script>
+
+    <!-- Perfect SCROLLBAR JS-->
+    <script src="../assets/plugins/owl-carousel/owl.carousel.js"></script>
+    <script src="../assets/plugins/company-slider/slider.js"></script>
+
+    <!-- SIDE-MENU JS -->
+    <script src="../assets/plugins/sidemenu/sidemenu.js"></script>
+
+    <!-- Star Rating Js-->
+    <script src="../assets/plugins/rating/jquery-rate-picker.js"></script>
+    <script src="../assets/plugins/rating/rating-picker.js"></script>
+
+    <!-- Star Rating-1 Js-->
+    <script src="../assets/plugins/ratings-2/jquery.star-rating.js"></script>
+    <script src="../assets/plugins/ratings-2/star-rating.js"></script>
+
+    <!-- Sticky js -->
+    <script src="../assets/js/sticky.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="../assets/js/landing.js"></script>
+
+</body>
+
+</html>
