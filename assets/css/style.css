@@ -249,8 +249,12 @@ body {
     width: 120px;
 }
 
+.login__logo img {
+    width: 120px;
+}
 .moible__logo {
     width: 120px;
+    margin: auto;
 }
 
 .heading h1 {
