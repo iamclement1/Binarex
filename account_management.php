@@ -74,10 +74,10 @@
                                 <div class="collapse navbar-collapse bg-white px-0" id="navbarSupportedContent-4">
                                     <!-- SEARCH -->
                                     <div class="header-nav-right p-5">
-                                        <a href="login.html" class="btn ripple btn-min w-sm btn-outline-primary me-2"
+                                        <a href="login.php" class="btn ripple btn-min w-sm btn-outline-primary me-2"
                                             target="_blank">Login
                                         </a>
-                                        <a href="register.html" class="btn ripple btn-min w-sm btn-primary me-2"
+                                        <a href="register.php" class="btn ripple btn-min w-sm btn-primary me-2"
                                             target="_blank">Register
                                         </a>
                                     </div>
@@ -109,17 +109,17 @@
                                     <ul class="side-menu">
                                         <li class="slide">
                                             <a class="side-menu__item active
-                                            external nav nav-link" data-bs-toggle="slide" href="index.html">
+                                            external nav nav-link" data-bs-toggle="slide" href="index.php">
                                                 <span class="side-menu__label">Home</span></a>
                                         </li>
                                         <li class="slide nav-item dropdown ">
                                             <a class="side-menu__item nav-link dropdown-toggle"
                                                 id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                                aria-expanded="false" href="services.html"><span
+                                                aria-expanded="false" href="services.php"><span
                                                     class="side-menu__label"> Our Services</span></a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                                 <li>
-                                                    <a class="dropdown-item" href="binarex-robot.html">
+                                                    <a class="dropdown-item" href="binarex-robot.php">
                                                         Binarex Robots
                                                     </a>
                                                 </li>
@@ -136,12 +136,12 @@
                                                     </a>
                                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                                         <li>
-                                                            <a href="option1.html" class="dropdown-item" tabindex="-1">
+                                                            <a href="option1.php" class="dropdown-item" tabindex="-1">
                                                                 Option 1 Buy
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="option2.html" class="dropdown-item">
+                                                            <a href="option2.php" class="dropdown-item">
                                                                 Option 2 Buy
                                                             </a>
                                                         </li>
@@ -165,16 +165,16 @@
                                             </ul>
                                         </li>
                                         <li class="slide nav-item dropdown">
-                                            <a class="side-menu__item" href="remittance.html"><span
+                                            <a class="side-menu__item" href="remittance.php"><span
                                                     class="side-menu__label">Remittance</span></a>
                                         </li>
                                         <li class="slide">
-                                            <a class="side-menu__item" data-bs-toggle="slide" href="/faq.html"><span
+                                            <a class="side-menu__item" data-bs-toggle="slide" href="/faq.php"><span
                                                     class="side-menu__label">Faq's</span></a>
                                         </li>
                                         <li class="slide">
                                             <a class="side-menu__item external nav" data-bs-toggle="slide"
-                                                href="/contact.html"><span class="side-menu__label">Contact</span></a>
+                                                href="/contact.php"><span class="side-menu__label">Contact</span></a>
                                         </li>
                                     </ul>
                                     <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg"
@@ -183,10 +183,10 @@
                                                 d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z" />
                                         </svg></div>
                                     <div class="header-nav-right d-none d-lg-block">
-                                        <a href="login.html" class="btn ripple btn-min w-sm btn-outline-primary me-2"
+                                        <a href="login.php" class="btn ripple btn-min w-sm btn-outline-primary me-2"
                                             target="_blank">Login
                                         </a>
-                                        <a href="register.html" class="btn ripple btn-min w-sm btn-primary me-2"
+                                        <a href="register.php" class="btn ripple btn-min w-sm btn-primary me-2"
                                             target="_blank">Register
                                         </a>
                                     </div>
@@ -209,35 +209,164 @@
                             <div class="bg-image-landing section pb-0" id="Contact">
                                 <div class="container">
                                     <div class="row">
-                                        <h3 class="section-heading fw-bold fs-2">
-                                            Features of "Buy Option 1" Buy
-                                        </h3>
-                                        <ul>
-                                            <li>
-                                                1. $750 weekly VPS/CONNECTION fee.
-                                            </li>
-                                            <li>
-                                                2. 7.5% VAT rebate payable SUNDAYS, TUESDAYS & FRIDAYS.
-                                            </li>
-                                            <li>
-                                                3. 12.6% PROFIT rebate payment SUNDAYS, TUESDAYS & FRIDAYS.
-                                            </li>
-                                            <li>
-                                                4. 5 days of the week trading experience with exemption to weekends
-                                                (SATUDAYS & SUNDAY)
-                                            </li>
-                                            <li>
-                                                5. 1 week support
-                                            </li>
-                                            <li>
-                                                6. Limited exposure to much more profitable volatilities
-                                            </li>
-                                        </ul>
-                                        <div class="col-md-2">
+                                        <h3 class="section-heading fw-bold fs-2">Account Management</h3>
+                                        <div class="col-md-6">
+                                            <div>
+                                                <p>
+                                                    For constraint of time on the part of certain people, we accept to
+                                                    help them manage their accounts. Our account management is
+                                                    RESULT-LADEN! We just put that account in profit much more
+                                                    consistently than not.
+                                                </p>
+                                                <p>
+                                                    There are three (3) variants to our account management each of which
+                                                    is determined by your capital size
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <h3 class="fw-bold fs-3 text-primary">Account Management 1</h3>
+                                                <p class="fw-semibold fs-4">REMOTELY-MANAGED DEDICATED ACCOUNT</p>
+                                                <p>
+                                                    Here, the account is opened in your name and you have full control
+                                                    of your account just like the regular bank account.
+                                                </p>
+                                                <p>
+                                                    The only thing we take custody of is your DERIV.com SYNTHETIC
+                                                    account and the trading password. Consequent upon this, our system
+                                                    and crew of well-experienced, time tested professional traders who
+                                                    priotize the SAFETY of your fund!
+                                                </p>
+                                                <p>
+                                                    Capital sizes in this category is from 2 to 5 (BINAREX cool to
+                                                    BINAREX jumbo).
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <h3 class="fw-bold fs-3 text-primary">Account Management 2</h3>
+                                                <p class="fw-semibold fs-4">YOUR LOCATION-MANAGED DEDICATED ACCOUNT</p>
+                                                <p>
+                                                    This has same features like REMOTELY-MANAGED DEDICATED ACCOUNT. It's
+                                                    a special variant of our DEDICATED account management services that
+                                                    only files on BINAREX jumbo (Capital SIZE of above $5,000)
+                                                </p>
+                                                <img src="./assets/images/landing/Account-management-2-300x150-1.jpg"
+                                                    alt="account2_img">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-3 pb-3">
+                                            <div>
+                                                <p>
+                                                    Under this scheme, we can fly and join you any you anywhere in the
+                                                    world within the comfort of your OFFICE SPACE/premium BOOKED HOTEL
+                                                    to execute trades as well as other fundamental account management
+                                                    related services!
+                                                </p>
+                                                <p>
+                                                    Please note, that you shall bear the cost of all travel logistics
+                                                    for out delegate 2-man team.
+                                                </p>
+                                                <p>
+                                                    For further enquiries, you may reach us through all our posted
+                                                    channels.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <h3 class="fw-bold fs-3 text-primary">Account Management 3</h3>
+                                                <p class="fw-semibold fs-4">HEDGE FUND</p>
+                                                <p>
+                                                    Hedge fund is a private investment partnership and funds pool that
+                                                    uses varied and complex proprietary strategies and invest or trades
+                                                    in complex products, including listed and unlisted derivatives
+                                                </p>
+                                                <p>
+                                                    Put simply, hedge fund is a pool of money that takes both short and
+                                                    long positions. As the name suggests, the fund trieds to hedge risk
+                                                    to investor's capital against market volatility by employing
+                                                    alternative investment approaches thus increasing capital size in
+                                                    order to generate returns at reduceds risk.
+                                                </p>
+                                                <p>
+                                                    Under this scheme, a direct DOLLAR deposit is made to the company's
+                                                    account and BINAREX bit and BINAREX more falls under this category.
+                                                </p>
+                                                <p>
+                                                    A weekly payout of between 2.5% to 5% on invested saving funds is
+                                                    guaranted!
+                                                </p>
+                                            </div>
+                                            <button class="btn btn-primary p-3">Contact Us</button>
+                                        </div>
+                                        <div class="pt-4">
+                                            <h3 class="fw-bold fs-1 m-auto pt-3">
+                                                CAPITAL ($)/SUBSCRIPTION TABLE
+                                            </h3>
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="table-responsive">
+                                                        <table class="table border text-nowrap text-md-nowrap mb-0">
+                                                            <thead class="table-primary">
+                                                                <tr>
+                                                                    <th>S/NO</th>
+                                                                    <th>Capital</th>
+                                                                    <th> FUND RANGE ($) </th>
+                                                                    <th> SUBSCRIPTION ($) </th>
+                                                                    <th> PROFIT FOR US + VPS (%)</th>
+                                                                    <th>VALUE ADDED TAX (VAT) REBATE</th>
+                                                                    <th>PROFIT FOR YOU (%)</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>1</td>
+                                                                    <td>BINAREX bit</td>
+                                                                    <td>100 - 400</td>
+                                                                    <td>80</td>
+                                                                    <td>Nil</td>
+                                                                    <td>Nil</td>
+                                                                    <td>2.5% payout/week</td>
 
-                                            <a href="#" class="btn ripple btn-min w-sm btn-primary me-2"
-                                                target="_blank">Buy Now
-                                            </a>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>2</td>
+                                                                    <td>BINAREX cool</td>
+                                                                    <td>500 - 2,000</td>
+                                                                    <td>100</td>
+                                                                    <td>Nil</td>
+                                                                    <td>Nil</td>
+                                                                    <td>5% payout/week</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>3</td>
+                                                                    <td>BINAREX more</td>
+                                                                    <td>2,500 - 3,000</td>
+                                                                    <td>150</td>
+                                                                    <td>50</td>
+                                                                    <td>12.5% of PFY</td>
+                                                                    <td>50</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>4</td>
+                                                                    <td>BINAREX extra</td>
+                                                                    <td>4,000 - 5,000</td>
+                                                                    <td>150</td>
+                                                                    <td>50</td>
+                                                                    <td>10% of PFY</td>
+                                                                    <td>50</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>5</td>
+                                                                    <td>BINAREX jumbo</td>
+                                                                    <td>Above 5,000</td>
+                                                                    <td>150</td>
+                                                                    <td>50</td>
+                                                                    <td>2% of PFY</td>
+                                                                    <td>50</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

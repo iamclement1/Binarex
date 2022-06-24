@@ -74,10 +74,10 @@
                                 <div class="collapse navbar-collapse bg-white px-0" id="navbarSupportedContent-4">
                                     <!-- SEARCH -->
                                     <div class="header-nav-right p-5">
-                                        <a href="login.html" class="btn ripple btn-min w-sm btn-outline-primary me-2"
+                                        <a href="login.php" class="btn ripple btn-min w-sm btn-outline-primary me-2"
                                             target="_blank">Login
                                         </a>
-                                        <a href="register.html" class="btn ripple btn-min w-sm btn-primary me-2"
+                                        <a href="register.php" class="btn ripple btn-min w-sm btn-primary me-2"
                                             target="_blank">Register
                                         </a>
                                     </div>
@@ -109,17 +109,17 @@
                                     <ul class="side-menu">
                                         <li class="slide">
                                             <a class="side-menu__item active
-                                            external nav nav-link" data-bs-toggle="slide" href="index.html">
+                                            external nav nav-link" data-bs-toggle="slide" href="index.php">
                                                 <span class="side-menu__label">Home</span></a>
                                         </li>
                                         <li class="slide nav-item dropdown ">
                                             <a class="side-menu__item nav-link dropdown-toggle"
                                                 id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                                aria-expanded="false" href="services.html"><span
+                                                aria-expanded="false" href="services.php"><span
                                                     class="side-menu__label"> Our Services</span></a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                                 <li>
-                                                    <a class="dropdown-item" href="binarex-robot.html">
+                                                    <a class="dropdown-item" href="binarex-robot.php">
                                                         Binarex Robots
                                                     </a>
                                                 </li>
@@ -136,12 +136,12 @@
                                                     </a>
                                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                                         <li>
-                                                            <a href="option1.html" class="dropdown-item" tabindex="-1">
+                                                            <a href="option1.php" class="dropdown-item" tabindex="-1">
                                                                 Option 1 Buy
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="option2.html" class="dropdown-item">
+                                                            <a href="option2.php" class="dropdown-item">
                                                                 Option 2 Buy
                                                             </a>
                                                         </li>
@@ -165,16 +165,16 @@
                                             </ul>
                                         </li>
                                         <li class="slide nav-item dropdown">
-                                            <a class="side-menu__item" href="remittance.html"><span
+                                            <a class="side-menu__item" href="remittance.php"><span
                                                     class="side-menu__label">Remittance</span></a>
                                         </li>
                                         <li class="slide">
-                                            <a class="side-menu__item" data-bs-toggle="slide" href="/faq.html"><span
+                                            <a class="side-menu__item" data-bs-toggle="slide" href="/faq.php"><span
                                                     class="side-menu__label">Faq's</span></a>
                                         </li>
                                         <li class="slide">
                                             <a class="side-menu__item external nav" data-bs-toggle="slide"
-                                                href="/contact.html"><span class="side-menu__label">Contact</span></a>
+                                                href="/contact.php"><span class="side-menu__label">Contact</span></a>
                                         </li>
                                     </ul>
                                     <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg"
@@ -183,10 +183,10 @@
                                                 d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z" />
                                         </svg></div>
                                     <div class="header-nav-right d-none d-lg-block">
-                                        <a href="login.html" class="btn ripple btn-min w-sm btn-outline-primary me-2"
+                                        <a href="login.php" class="btn ripple btn-min w-sm btn-outline-primary me-2"
                                             target="_blank">Login
                                         </a>
-                                        <a href="register.html" class="btn ripple btn-min w-sm btn-primary me-2"
+                                        <a href="register.php" class="btn ripple btn-min w-sm btn-primary me-2"
                                             target="_blank">Register
                                         </a>
                                     </div>
@@ -208,179 +208,36 @@
                             <!-- Contact Page -->
                             <div class="bg-image-landing section pb-0" id="Contact">
                                 <div class="container">
-                                    <div class="">
-                                        <div class="card card-shadow reveal">
-                                            <span class="text-center fw-bolder display-4 mb-0 mt-2">Get in Touch with <span
-                                                    class="text-danger fw-bolder display-4">US.</span></span>
-                                            <div class="card-body p-5 pb-6 text-dark">
-                                                <div class="statistics-info p-4">
-                                                    <div class="row justify-content-center">
-                                                        <div class="col-lg-9">
-                                                            <div class="mt-3">
-                                                                <div class="text-dark">
-                                                                    <div class="services-statistics reveal my-5">
-                                                                        <div class="row text-center">
-                                                                            <div class="col-xl-3 col-md-6 col-lg-6">
-                                                                                <div class="card">
-                                                                                    <div class="card-body p-0">
-                                                                                        <div class="counter-status">
-                                                                                            <div
-                                                                                                class="counter-icon bg-primary-transparent box-shadow-primary">
-                                                                                                <i
-                                                                                                    class="fe fe-map-pin text-primary fs-23"></i>
-                                                                                            </div>
-                                                                                            <h4
-                                                                                                class="mb-2 fw-semibold">
-                                                                                                Main Branch</h4>
-                                                                                            <p>San Francisco, CA </p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="col-xl-3 col-md-6 col-lg-6">
-                                                                                <div class="card">
-                                                                                    <div class="card-body p-0">
-                                                                                        <div class="counter-status">
-                                                                                            <div
-                                                                                                class="counter-icon bg-secondary-transparent box-shadow-secondary">
-                                                                                                <i
-                                                                                                    class="fe fe-headphones text-secondary fs-23"></i>
-                                                                                            </div>
-                                                                                            <h4
-                                                                                                class="mb-2 fw-semibold">
-                                                                                                Phone</h4>
-                                                                                            <p>
-                                                                                                <a href="tel:+18175122820"
-                                                                                                    class="text-dark">
-                                                                                                    +1(817)5122820
-                                                                                                </a>
-                                                                                            </p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="col-xl-3 col-md-6 col-lg-6">
-                                                                                <div class="card">
-                                                                                    <div class="card-body p-0">
-                                                                                        <div class="counter-statuss">
-                                                                                            <div
-                                                                                                class="counter-icon bg-success-transparent box-shadow-success">
-                                                                                                <i
-                                                                                                    class="fe fe-mail text-success fs-23"></i>
-                                                                                            </div>
-                                                                                            <h4
-                                                                                                class="mb-2 fw-semibold">
-                                                                                                Contact</h4>
-                                                                                            <p>
-                                                                                                <a href="mailto:support@binarex.biz"
-                                                                                                    class="text-dark">
-                                                                                                    support@binarex.biz
-                                                                                                </a>
-                                                                                            </p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="col-xl-3 col-md-6 col-lg-6">
-                                                                                <div class="card">
-                                                                                    <div class="card-body p-0">
-                                                                                        <div class="counter-status">
-                                                                                            <div
-                                                                                                class="counter-icon bg-danger-transparent box-shadow-danger">
-                                                                                                <i
-                                                                                                    class="fe fe-airplay text-danger fs-23"></i>
-                                                                                            </div>
-                                                                                            <h4
-                                                                                                class="mb-2 fw-semibold">
-                                                                                                Working Hours</h4>
-                                                                                            <p class="mb-0">Monday -
-                                                                                                Friday: 9am - 6pm</p>
-                                                                                            <p>Saturday - Sunday:
-                                                                                                Holiday
-                                                                                            </p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row bg-white shadow-sm mb-4 p-3">
-                                        <div class="col-lg-6 pb-3 px-4">
-                                            <form class="form-horizontal reveal revealrotate m-t-20"
-                                                action="index.html">
-                                                <div class="form-group">
-                                                    <div class="col-xs-12">
-                                                        <input class="form-control" type="text" required=""
-                                                            placeholder="Username*">
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <div class="col-xs-12">
-                                                        <input class="form-control" type="email" required=""
-                                                            placeholder="Email*">
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <div class="col-xs-12">
-                                                        <textarea class="form-control" rows="5">Your Comment*</textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="">
-                                                    <a href="javascript:void(0)"
-                                                        class="btn btn-primary btn-rounded  waves-effect waves-light">Submit</a>
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <div class="col-lg-6 reveal revealrotate m-t-20">
-                                            <span class="mb-0 fw-bolder display-3">Online Inquiry</span>
-                                            <p class="mb-2 pb-4">
-                                                Get in touch with our experts in the field to answer
-                                                any of your questions.
-                                            </p>
-                                            <div class="d-flex space-x-4 ">
-                                                <div class='me-2'>
-                                                    <div class='d-flex text-align:center'>
-                                                        <i class="fa-solid fa-envelope-open fa-2xl mt-2 me-3"></i>
-                                                        <h4 class="fs-4 fw-bold">Office Email</h4>
-                                                    </div>
-                                                    <p class="text-dark me-2 ">
-                                                        <a href="mailto:support@binarex.biz" class="text-dark me-2">
-                                                            support@binarex.biz
-                                                        </a>
-                                                        <a href="mailto:sales@binarex.biz" class="text-dark">
-                                                            sales@binarex.biz
-                                                        </a>
-                                                    </p>
+                                    <div class="row">
+                                        <h3 class="section-heading fw-bold fs-2">
+                                            Features of "Buy Option 1" Buy
+                                        </h3>
+                                        <ul>
+                                            <li>
+                                                1. $750 weekly VPS/CONNECTION fee.
+                                            </li>
+                                            <li>
+                                                2. 7.5% VAT rebate payable SUNDAYS, TUESDAYS & FRIDAYS.
+                                            </li>
+                                            <li>
+                                                3. 12.6% PROFIT rebate payment SUNDAYS, TUESDAYS & FRIDAYS.
+                                            </li>
+                                            <li>
+                                                4. 5 days of the week trading experience with exemption to weekends
+                                                (SATUDAYS & SUNDAY)
+                                            </li>
+                                            <li>
+                                                5. 1 week support
+                                            </li>
+                                            <li>
+                                                6. Limited exposure to much more profitable volatilities
+                                            </li>
+                                        </ul>
+                                        <div class="col-md-2">
 
-                                                </div>
-
-                                                <div>
-                                                    <div class="d-flex mb-0">
-                                                        <i class="fa-solid fa-headset fa-2xl mt-3 fa-bold me-3"></i>
-                                                        <h3 class="fs-4 fw-bold mb-4">Customer Support</h3>
-
-                                                    </div>
-                                                    <p>(WhatsApp, Telegram & SMS only)</p>
-                                                    <p>
-                                                        Texas: <a href="tel:+18175122820">+1(817)5122820</a>
-                                                    </p>
-                                                    <p>
-                                                        Poland: <a href="tel:+48732231344">+48732231344</a>
-                                                    </p>
-                                                    <p>
-                                                        UK: <a href="tel:+447362026508">+447362026508</a>
-                                                    </p>
-                                                </div>
-
-                                            </div>
+                                            <a href="#" class="btn ripple btn-min w-sm btn-primary me-2"
+                                                target="_blank">Buy Now
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

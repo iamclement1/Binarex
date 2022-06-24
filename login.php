@@ -84,15 +84,15 @@
                                                 <input class="input100 border-start-0 form-control ms-0" type="password" placeholder="Password">
                                             </div>
                                             <div class="text-end pt-4">
-                                                <p class="mb-0"><a href="forgot-password.html" class="text-primary ms-1">Forgot Password?</a></p>
+                                                <p class="mb-0"><a href="forgot-password.php" class="text-primary ms-1">Forgot Password?</a></p>
                                             </div>
                                             <div class="container-login100-form-btn">
-                                                <a href="index.html" class="login100-form-btn btn-primary">
+                                                <a href="index.php" class="login100-form-btn btn-primary">
                                                         Login
                                                 </a>
                                             </div>
                                             <div class="text-center pt-3">
-                                                <p class="text-dark mb-0">Not a member?<a href="register.html" class="text-primary ms-1">Sign UP</a></p>
+                                                <p class="text-dark mb-0">Not a member?<a href="register.php" class="text-primary ms-1">Sign UP</a></p>
                                             </div>
                                         </div>
                                         <div class="tab-pane" id="tab6">

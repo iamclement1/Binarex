@@ -74,10 +74,10 @@
                                 <div class="collapse navbar-collapse bg-white px-0" id="navbarSupportedContent-4">
                                     <!-- SEARCH -->
                                     <div class="header-nav-right p-5">
-                                        <a href="login.html" class="btn ripple btn-min w-sm btn-outline-primary me-2"
+                                        <a href="login.php" class="btn ripple btn-min w-sm btn-outline-primary me-2"
                                             target="_blank">Login
                                         </a>
-                                        <a href="register.html" class="btn ripple btn-min w-sm btn-primary me-2"
+                                        <a href="register.php" class="btn ripple btn-min w-sm btn-primary me-2"
                                             target="_blank">Register
                                         </a>
                                     </div>
@@ -109,7 +109,7 @@
                                     <ul class="side-menu">
                                         <li class="slide">
                                             <a class="side-menu__item active
-                                            external nav nav-link" data-bs-toggle="slide" href="index.html">
+                                            external nav nav-link" data-bs-toggle="slide" href="index.php">
                                                 <span class="side-menu__label">Home</span></a>
                                         </li>
                                         <li class="slide nav-item dropdown ">
@@ -120,7 +120,7 @@
                                                 Our Services</span></a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                                 <li>
-                                                    <a class="dropdown-item" href="binarex-robot.html">
+                                                    <a class="dropdown-item" href="binarex-robot.php">
                                                         Binarex Robots
                                                     </a>
                                                 </li>
@@ -147,16 +147,16 @@
                                             </ul>
                                         </li>
                                         <li class="slide nav-item dropdown">
-                                            <a class="side-menu__item" href="remittance.html"><span
+                                            <a class="side-menu__item" href="remittance.php"><span
                                                     class="side-menu__label">Remittance</span></a>
                                         </li>
                                         <li class="slide">
-                                            <a class="side-menu__item" data-bs-toggle="slide" href="/faq.html"><span
+                                            <a class="side-menu__item" data-bs-toggle="slide" href="/faq.php"><span
                                                     class="side-menu__label">Faq's</span></a>
                                         </li>
                                         <li class="slide">
                                             <a class="side-menu__item external nav" data-bs-toggle="slide"
-                                                href="/contact.html"><span class="side-menu__label">Contact</span></a>
+                                                href="/contact.php"><span class="side-menu__label">Contact</span></a>
                                         </li>
                                     </ul>
                                     <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg"
@@ -165,10 +165,10 @@
                                                 d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z" />
                                         </svg></div>
                                     <div class="header-nav-right d-none d-lg-block">
-                                        <a href="register.html" class="btn ripple btn-min w-sm btn-outline-primary me-2"
+                                        <a href="register.php" class="btn ripple btn-min w-sm btn-outline-primary me-2"
                                             target="_blank">Login
                                         </a>
-                                        <a href="login.html" class="btn ripple btn-min w-sm btn-primary me-2"
+                                        <a href="login.php" class="btn ripple btn-min w-sm btn-primary me-2"
                                             target="_blank">Register
                                         </a>
                                     </div>

@@ -74,10 +74,10 @@
                                 <div class="collapse navbar-collapse bg-white px-0" id="navbarSupportedContent-4">
                                     <!-- SEARCH -->
                                     <div class="header-nav-right p-5">
-                                        <a href="login.html" class="btn ripple btn-min w-sm btn-outline-primary me-2"
+                                        <a href="login.php" class="btn ripple btn-min w-sm btn-outline-primary me-2"
                                             target="_blank">Login
                                         </a>
-                                        <a href="register.html" class="btn ripple btn-min w-sm btn-primary me-2"
+                                        <a href="register.php" class="btn ripple btn-min w-sm btn-primary me-2"
                                             target="_blank">Register
                                         </a>
                                     </div>
@@ -109,17 +109,17 @@
                                     <ul class="side-menu">
                                         <li class="slide">
                                             <a class="side-menu__item active
-                                            external nav nav-link" data-bs-toggle="slide" href="index.html">
+                                            external nav nav-link" data-bs-toggle="slide" href="index.php">
                                                 <span class="side-menu__label">Home</span></a>
                                         </li>
                                         <li class="slide nav-item dropdown ">
                                             <a class="side-menu__item nav-link dropdown-toggle"
                                                 id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                                aria-expanded="false" href="services.html"><span
+                                                aria-expanded="false" href="services.php"><span
                                                     class="side-menu__label"> Our Services</span></a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                                 <li>
-                                                    <a class="dropdown-item" href="binarex-robot.html">
+                                                    <a class="dropdown-item" href="binarex-robot.php">
                                                         Binarex Robots
                                                     </a>
                                                 </li>
@@ -136,12 +136,12 @@
                                                     </a>
                                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                                         <li>
-                                                            <a href="option1.html" class="dropdown-item" tabindex="-1">
+                                                            <a href="option1.php" class="dropdown-item" tabindex="-1">
                                                                 Option 1 Buy
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="option2.html" class="dropdown-item">
+                                                            <a href="option2.php" class="dropdown-item">
                                                                 Option 2 Buy
                                                             </a>
                                                         </li>
@@ -165,16 +165,16 @@
                                             </ul>
                                         </li>
                                         <li class="slide nav-item dropdown">
-                                            <a class="side-menu__item" href="remittance.html"><span
+                                            <a class="side-menu__item" href="remittance.php"><span
                                                     class="side-menu__label">Remittance</span></a>
                                         </li>
                                         <li class="slide">
-                                            <a class="side-menu__item" data-bs-toggle="slide" href="/faq.html"><span
+                                            <a class="side-menu__item" data-bs-toggle="slide" href="/faq.php"><span
                                                     class="side-menu__label">Faq's</span></a>
                                         </li>
                                         <li class="slide">
                                             <a class="side-menu__item external nav" data-bs-toggle="slide"
-                                                href="/contact.html"><span class="side-menu__label">Contact</span></a>
+                                                href="/contact.php"><span class="side-menu__label">Contact</span></a>
                                         </li>
                                     </ul>
                                     <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg"
@@ -183,10 +183,10 @@
                                                 d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z" />
                                         </svg></div>
                                     <div class="header-nav-right d-none d-lg-block">
-                                        <a href="login.html" class="btn ripple btn-min w-sm btn-outline-primary me-2"
+                                        <a href="login.php" class="btn ripple btn-min w-sm btn-outline-primary me-2"
                                             target="_blank">Login
                                         </a>
-                                        <a href="register.html" class="btn ripple btn-min w-sm btn-primary me-2"
+                                        <a href="register.php" class="btn ripple btn-min w-sm btn-primary me-2"
                                             target="_blank">Register
                                         </a>
                                     </div>
@@ -209,52 +209,199 @@
                             <div class="bg-image-landing section pb-0" id="Contact">
                                 <div class="container">
                                     <div class="row">
-                                        <h3 class="section-heading fw-bold fs-2">
-                                            Features of "Buy Option 2" Buy
-                                        </h3>
-                                        <ul>
-                                            <li>
-                                                1. $250 weekly VPS/CONNECTION fee.
-                                            </li>
-                                            <li>
-                                                2. 7.5% VAT rebate payable every SUNDAY (Once in a week).
-                                            </li>
-                                            <li>
-                                                3. Zero% PROFIT rebate. You don't have to share your profit with BINAREX
-                                                for life!
-                                            </li>
-                                            <li>
-                                                4. 7 days of the week trading experience. You trade and make profit
-                                                whenever you desire!
-                                            </li>
-                                            <li>
-                                                5. (Two) 2 months support
-                                            </li>
-                                            <li>
-                                                6. Limiteless exposure to much more profitable volatility indices.
-                                            </li>
-                                            <li>
-                                                7. You become a WHITELIST client. This status earns you the privileges
-                                                of enjoying
-                                                discount and bonuses from time to time.
-                                            </li>
-                                            <li>
-                                                8. You have an officially dedicated account manager who shall directly
-                                                attend to you
-                                                from time to time.
-                                            </li>
-                                            <li>
-                                                9. You can become a partner representing BINAREX & doing buisness in
-                                                your country You will
-                                                be awarded a CERTIFICATE OF PARTNERSHIP enabling you to act in that
-                                                capacity
-                                            </li>
-                                        </ul>
-                                        <div class="col-md-2">
+                                        <h3 class="fw-bold fs-3">Binarex Robots</h3>
+                                        <div class="col-md-6">
+                                            <div>
+                                                <h2 class="fw-bold fs-2">Robot 1: Binarex Market Killer</h2>
+                                                <p>
+                                                    Binarex reliable robot is contracted to you! It trades automatically
+                                                    on your
+                                                    deriv.Com/binary.Com account and makes an astonishing 5% of capital
+                                                    within 30 minutes.
+                                                </p>
+                                                <p>
+                                                    The robot is strategically wired to withstand even a terrible market
+                                                    situation. Its system is wired to use the MARTINGABLE strategy. This
+                                                    robot places trade using a virtual accont before consummating a
+                                                    transaction with REAL MONEY!
+                                                </p>
+                                                <p>
+                                                    It wins 19 out of 20 trades and even often than not, it will win 20
+                                                    out of 20! It's simply awesome! Conditions. It generate 5% within a
+                                                    space of 2 minutes to 30 minutes depending on the market. It runs on
+                                                    bot.binarytools.io/platform
+                                                </p>
+                                                <p>
+                                                    it doesn't require any trading knowledge or experience to use. It's
+                                                    as simple as ABC! It can be used by both professional and stark
+                                                    novice in the trading world.
+                                                </p>
+                                                <p>
+                                                    Printing dollars has just gotten easier with BINAREX MARKET KILLER
+                                                    (BMK)
+                                                </p>
 
-                                            <a href="#" class="btn ripple btn-min w-sm btn-primary me-2"
-                                                target="_blank">Buy Now
-                                            </a>
+                                            </div>
+                                            <div>
+                                                <h3 class="fw-bold fs-3">MK Delievers Result Confidently</h3>
+                                                <p>
+                                                    Binarex reliable robot is contracted to you! It trades automatically
+                                                    on your
+                                                    deriv.Com/binary.Com account and makes an astonishing 5% of capital
+                                                    within 30 minutes.
+                                                </p>
+                                                <p>
+                                                    Our robot specifically trades synthetic indices & delivers result as
+                                                    expected within the 30 minutes.
+                                                </p>
+                                                <p>
+                                                    All you are required to pay the integrated for everyday printing of
+                                                    dollars are as follows:
+                                                </p>
+                                                <ul class="mb-3">
+                                                    <ol>
+                                                        Robot subscription fee: $36 (#20,000) - a one time fee
+                                                    </ol>
+                                                    <ol>
+                                                        Robot pin: $45 (#25,000) - a one-time fee.
+                                                    </ol>
+                                                </ul>
+                                                <p>
+                                                    Upon the successful confirmation of payment, the robot shall be
+                                                    pointed towards your deriv account and you start making money
+                                                    immediately! Yes, you read right! You start making money immediately
+                                                    within a space of 30 minutes.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <h3 class="fw-bold fs-3">Market-Killer Operation</h3>
+                                                <p>This is self-operated. We train you on how it works within few
+                                                    minutes and you start your dollar printing.</p>
+                                            </div>
+                                            <div>
+                                                <h3 class="fw-bold fs-3">Market-Killer Remittance</h3>
+                                                <p>
+                                                    Remittance is done within the hours of 4pm GMT +1hr standard time.
+                                                    Please note that failure to REMIT/SEND the appropriate share at the
+                                                    RIGHT time may lead to the deactivation of your account and this
+                                                    could result in huge losses for you!
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <h3 class="fw-bold fs-3">Market-Killer Profit Table</h3>
+                                                <p>
+                                                    We only make money when you make money, but our system allows you to
+                                                    make more than us. Your capital determines how much you remit back
+                                                    and breakdown is spread below:
+                                                </p>
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="table-responsive">
+                                                            <table class="table border text-nowrap text-md-nowrap mb-0">
+                                                                <thead class="table-primary">
+                                                                    <tr>
+                                                                        <th>Capital ($)</th>
+                                                                        <th> Remittance (%) </th>
+                                                                        <th> Your Profit (%) </th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>100 - 500</td>
+                                                                        <td>40</td>
+                                                                        <td>60</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>501 - 1,000</td>
+                                                                        <td>35</td>
+                                                                        <td> 65</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>1,001 - 50,000</td>
+                                                                        <td>30</td>
+                                                                        <td>70</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Above 50,000</td>
+                                                                        <td>25</td>
+                                                                        <td>75</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p>
+                                                    For instance, if the robot makes $500 in a week under category 3,
+                                                    you will send back $150 to us while $350 is all yours!
+                                                </p>
+                                                <p>
+                                                    If upon running the robot & you aren't satisfied, we shall provoke
+                                                    pin and do a 100% subscription refund back to you and this must be
+                                                    within 1 week of purchase!
+                                                </p>
+                                                <p>
+                                                    Also, if upon making money (which are sure you would), you do not
+                                                    remit back to the correct share at the appropriate time, we shall
+                                                    disable the robot network connected to your account and that may
+                                                    amount to gross losses to you. So, you must be faithful & committed
+                                                    in that regard as our system monitors the progress of all accounts!
+                                                </p>
+                                            </div>
+                                            <button class="btn btn-primary p-3">Subscribe to Robot</button>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div>
+                                                <h3 class="fw-bold fs-2">
+                                                    Robot 2: Binarex Red-Dragon
+                                                </h3>
+                                                <p>
+                                                    Red-DRAGON works just as its name implies. This is simply the best
+                                                    that can ever be in the world of robots! RED-DRAGON uses an amazing
+                                                    algorithm toughly wired to behave intelligently while executing
+                                                    trades. It set TAKE PROFIT (TP) & STOP LOSS (SL) taking advantage of
+                                                    its intelligently wired ability to ACCURATELY read the market and
+                                                    make profitabe decisions.
+                                                </p>
+                                                <p>
+                                                    It combines the duo strategies of MARTINGABLE & HEDGING while
+                                                    executing trades and has capacity to generate from 10% to 25% per
+                                                    day. it runs on MT5.
+                                                </p>
+                                                <p>
+                                                    It can be used by professionals and extreme novice as it does all
+                                                    the work on it own. Just amazing! RED-DRAGON kills the market the
+                                                    DRAGON WAY!. With RED-DRAGON, making money is just a few clicks
+                                                    away!
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <h3 class="fw-bold fs-3">Red-DRAGON Remittance</h3>
+                                                <p>
+                                                    This is done on a 50%/50% basis. The remittance is done at the
+                                                    instance of prompt either by SMS or through your registered email.
+                                                </p>
+                                                <p>
+                                                    This remittance is routed through the REMITTANCE page and could be
+                                                    direct bank transfer and other posted channels of payment
+                                                </p>
+                                                <p>
+                                                    Compulsory Daily Remittance (% Profit Remittance)
+                                                </p>
+                                                <p>
+                                                    We only make money when you make money, but our sytem allows you to
+                                                    make more than us. Your capital determines how much you remit back
+                                                    and breakdown is spread below:
+                                                </p>
+                                                <p>
+                                                    Fore more details, please refer to FAQ.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <img src="./assets/images/landing/red-dragon.png"
+                                                    alt="red-dragon image">
+                                            </div>
+                                            <button class="btn btn-primary p-3">My Remittance</button>
                                         </div>
                                     </div>
                                 </div>
