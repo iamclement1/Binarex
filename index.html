@@ -1,235 +1,226 @@
-    <!doctype html>
-    <html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en" dir="ltr">
 
-    <head>
+<head>
 
-        <!-- META DATA -->
-        <meta charset="UTF-8">
-        <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="Sash – Bootstrap 5  Admin & Dashboard Template">
-        <meta name="author" content="Spruko Technologies Private Limited">
-        <meta name="keywords"
-            content="admin,admin dashboard,admin panel,admin template,bootstrap,clean,dashboard,flat,jquery,modern,responsive,premium admin templates,responsive admin,ui,ui kit.">
+    <!-- META DATA -->
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sash – Bootstrap 5  Admin & Dashboard Template">
+    <meta name="author" content="Spruko Technologies Private Limited">
+    <meta name="keywords"
+        content="admin,admin dashboard,admin panel,admin template,bootstrap,clean,dashboard,flat,jquery,modern,responsive,premium admin templates,responsive admin,ui,ui kit."><?php
+        $output = <<<OUTPUT
 
-        <!-- FAVICON -->
-        <link rel="shortcut icon" type="image/x-icon" href="../assets/images/brand/Binarex-Logo-black.png" />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/brand/Binarex-Logo-black.png" />
 
-        <!-- TITLE -->
-        <title>Binarex</title>
+    <!-- TITLE -->
+    <title>Binarex</title>
 
-        <!-- BOOTSTRAP CSS -->
-        <link id="style" href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- BOOTSTRAP CSS -->
+    <link id="style" href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-        <!-- STYLE CSS -->
-        <link href="../assets/css/style.css" rel="stylesheet" />
+    <!-- STYLE CSS -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
 
-        <!--- FONT-ICONS CSS -->
-        <link href="../assets/css/icons.css" rel="stylesheet" />
+    <!--- FONT-ICONS CSS -->
+    <link href="../assets/css/icons.css" rel="stylesheet" />
 
-        <!-- COLOR SKIN CSS -->
-        <link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/colors/color1.css" />
-        <!-- Fontawesome icon -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- COLOR SKIN CSS -->
+    <link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/colors/color1.css" />
+    <!-- Fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    </head>
+</head>
 
-    <body class="app sidebar-mini ltr landing-page horizontal">
+<body class="app sidebar-mini ltr landing-page horizontal">
 
-        <!-- GLOBAL-LOADER -->
-        <div id="global-loader">
-            <img src="../assets/images/loader.svg" class="loader-img" alt="Loader">
-        </div>
-        <!-- /GLOBAL-LOADER -->
+    <!-- GLOBAL-LOADER -->
+    <div id="global-loader">
+        <img src="../assets/images/loader.svg" class="loader-img" alt="Loader">
+    </div>
+    <!-- /GLOBAL-LOADER -->
 
-        <!-- PAGE -->
-        <div class="page">
-            <div class="page-main">
+    <!-- PAGE -->
+    <div class="page">
+        <div class="page-main">
 
-                <!-- app-Header -->
-                <div class="app-header header">
-                    <div class="container-fluid main-container">
-                        <div class="d-flex">
-                            <a aria-label="Hide Sidebar" class="app-sidebar__toggle" data-bs-toggle="sidebar"
-                                href="javascript:void(0)"></a>
-                            <!-- sidebar-toggle-->
-                            <a class="logo-horizontal " href="#">
-                                <img src="../assets/images/brand/Binarex-Logo-black.png"
-                                    class="header-brand-img desktop-logo" alt="logo" />
-                                <!-- <img src="../assets/images/brand/Binarex-Logo-black.png"
+            <!-- app-Header -->
+            <div class="app-header header">
+                <div class="container-fluid main-container">
+                    <div class="d-flex">
+                        <a aria-label="Hide Sidebar" class="app-sidebar__toggle" data-bs-toggle="sidebar"
+                            href="javascript:void(0)"></a>
+                        <!-- sidebar-toggle-->
+                        <a class="logo-horizontal " href="#">
+                            <img src="../assets/images/brand/Binarex-Logo-black.png"
+                                class="header-brand-img desktop-logo" alt="logo" />
+                            <!-- <img src="../assets/images/brand/Binarex-Logo-black.png"
                                     class="header-brand-img light-logo-2" alt="logo"/> -->
-                            </a>
-                            <!-- LOGO -->
-                            <div class="d-flex order-lg-2 ms-auto header-right-icons">
-                                <button class="navbar-toggler navresponsive-toggler d-lg-none ms-auto" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-4"
-                                    aria-controls="navbarSupportedContent-4" aria-expanded="false"
-                                    aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon fe fe-more-vertical"></span>
-                                </button>
-                                <div class="navbar navbar-collapse responsive-navbar p-0">
-                                    <div class="collapse navbar-collapse bg-white px-0" id="navbarSupportedContent-4">
-                                        <!-- SEARCH -->
-                                        <div class="header-nav-right p-5">
-                                            <a href="login.html"
-                                                class="btn ripple btn-min w-sm btn-outline-primary me-2"
-                                                target="_blank">Login
-                                            </a>
-                                            <a href="register.html" class="btn ripple btn-min w-sm btn-primary me-2"
-                                                target="_blank">Register
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /app-Header -->
-
-                <div class="landing-top-header overflow-hidden">
-                    <div class="top sticky overflow-hidden">
-                        <!--APP-SIDEBAR-->
-                        <div class="app-sidebar__overlay" data-bs-toggle="sidebar"></div>
-                        <div class="app-sidebar bg-transparent">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="main-sidemenu navbar px-0">
-                                        <a class="navbar-brand ps-0 d-none d-lg-block" href="#">
-                                            <img alt="" class="logo-2"
-                                                src="../assets/images/brand/Binarex-Logo-black.png">
+                        </a>
+                        <!-- LOGO -->
+                        <div class="d-flex order-lg-2 ms-auto header-right-icons">
+                            <button class="navbar-toggler navresponsive-toggler d-lg-none ms-auto" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-4"
+                                aria-controls="navbarSupportedContent-4" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon fe fe-more-vertical"></span>
+                            </button>
+                            <div class="navbar navbar-collapse responsive-navbar p-0">
+                                <div class="collapse navbar-collapse bg-white px-0" id="navbarSupportedContent-4">
+                                    <!-- SEARCH -->
+                                    <div class="header-nav-right p-5">
+                                        <a href="login.html" class="btn ripple btn-min w-sm btn-outline-primary me-2"
+                                            target="_blank">Login
                                         </a>
-                                        <div class="slide-left disabled" id="slide-left"><svg
-                                                xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24"
-                                                viewBox="0 0 24 24">
-                                                <path
-                                                    d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z" />
-                                            </svg></div>
-                                        <ul class="side-menu">
-                                            <li class="slide">
-                                                <a class="side-menu__item active" data-bs-toggle="slide"
-                                                    href="index.html"><span class="side-menu__label">Home</span></a>
-                                            </li>
-                                            <li class="slide dropdown">
-                                                <a class="side-menu__item dropdown-toggle" id="dropdownMenuLink"
-                                                    role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                                                    aria-haspopup="true" href="services.html"><span
-                                                        class="side-menu__label"> Our Services</span></a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                    <li>
-                                                        <a class="dropdown-item" href="binarex-robot.html">
-                                                            Binarex Robots
-                                                        </a>
-
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" class="dropdown-item">
-                                                            Account Management
-                                                        </a>
-                                                    </li>
-                                                    <li class="dropdown-submenu dropdown show">
-                                                        <a href="#" class="dropdown-toggle" id="dropdownMenuLink"
-                                                            role="button" data-bs-toggle="dropdown"
-                                                            aria-expanded="false" aria-haspopup="true"
-                                                            aria-tabindex="-1">
-                                                            Buy Options
-                                                        </a>
-                                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                            <li>
-                                                                <a href="option1.html" class="dropdown-item"
-                                                                    tabindex="-1">
-                                                                    Option 1 Buy
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="option2.html" class="dropdown-item">
-                                                                    Option 2 Buy
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#" class="dropdown-item">
-                                                                    Compare Packages.
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" class="dropdown-item">
-                                                            Our Blog
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" class="dropdown-item">
-                                                            Our Partnership
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="slide nav-item dropdown">
-                                                <a class="side-menu__item" href="remittance.html"><span
-                                                        class="side-menu__label">Remittance</span></a>
-                                            </li>
-                                            <li class="slide">
-                                                <a class="side-menu__item" data-bs-toggle="slide" href="/faq.html"><span
-                                                        class="side-menu__label">Faq's</span></a>
-                                            </li>
-                                            <li class="slide">
-                                                <a href="/contact.html" class="side-menu__item"
-                                                    data-bs-toggle="slide"><span
-                                                        class="side-menu__label">Contact</span></a>
-                                            </li>
-                                        </ul>
-                                        <div class="slide-right" id="slide-right"><svg
-                                                xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24"
-                                                viewBox="0 0 24 24">
-                                                <path
-                                                    d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z" />
-                                            </svg></div>
-                                        <div class="header-nav-right d-none d-lg-block">
-                                            <a href="login.html"
-                                                class="btn ripple btn-min w-sm btn-outline-primary me-2"
-                                                target="_blank">Login
-                                            </a>
-                                            <a href="register.html" class="btn ripple btn-min w-sm btn-primary me-2"
-                                                target="_blank">Register
-                                            </a>
-                                        </div>
+                                        <a href="register.html" class="btn ripple btn-min w-sm btn-primary me-2"
+                                            target="_blank">Register
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!--/APP-SIDEBAR-->
                     </div>
-                    <div class="demo-screen-headline main-demo main-demo-1 spacing-top overflow-hidden reveal"
-                        id="home">
-                        <div class="container px-sm-0">
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-6 mb-5 pb-5 animation-zidex pos-relative">
-                                    <h4 class="fw-semibold mt-7">Welcome to Binarex </h4>
-                                    <span class="fw-bolder text-center display-2">
-                                        Print Dollar Everyday Without Fail!
-                                    </span>
-                                    <h6 class="pb-3 fs-3">
-                                        Make incredicle income through our over 99% reliable
-                                        binarex robot</h6>
+                </div>
+            </div>
+            <!-- /app-Header -->
 
-                                    <a href="#" target="_blank"
-                                        class="btn ripple btn-min w-lg mb-3 me-2 btn-primary p-3"><i
-                                            class="fe fe-play me-2"></i> Learn More
+            <div class="landing-top-header overflow-hidden">
+                <div class="top sticky overflow-hidden">
+                    <!--APP-SIDEBAR-->
+                    <div class="app-sidebar__overlay" data-bs-toggle="sidebar"></div>
+                    <div class="app-sidebar bg-transparent">
+                        <div class="container">
+                            <div class="row">
+                                <div class="main-sidemenu navbar px-0">
+                                    <a class="navbar-brand ps-0 d-none d-lg-block" href="#">
+                                        <img alt="" class="logo-2" src="../assets/images/brand/Binarex-Logo-black.png">
                                     </a>
+                                    <div class="slide-left disabled" id="slide-left"><svg
+                                            xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z" />
+                                        </svg></div>
+                                    <ul class="side-menu">
+                                        <li class="slide">
+                                            <a class="side-menu__item active" data-bs-toggle="slide"
+                                                href="index.html"><span class="side-menu__label">Home</span></a>
+                                        </li>
+                                        <li class="slide dropdown">
+                                            <a class="side-menu__item dropdown-toggle" id="dropdownMenuLink"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                                aria-haspopup="true" href="services.html"><span
+                                                    class="side-menu__label"> Our Services</span></a>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <li>
+                                                    <a class="dropdown-item" href="binarex-robot.html">
+                                                        Binarex Robots
+                                                    </a>
+
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">
+                                                        Account Management
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-submenu dropdown show">
+                                                    <a href="#" class="dropdown-toggle" id="dropdownMenuLink"
+                                                        role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                                        aria-haspopup="true" aria-tabindex="-1">
+                                                        Buy Options
+                                                    </a>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                        <li>
+                                                            <a href="option1.html" class="dropdown-item" tabindex="-1">
+                                                                Option 1 Buy
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="option2.html" class="dropdown-item">
+                                                                Option 2 Buy
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="dropdown-item">
+                                                                Compare Packages.
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">
+                                                        Our Blog
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="dropdown-item">
+                                                        Our Partnership
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="slide nav-item dropdown">
+                                            <a class="side-menu__item" href="remittance.html"><span
+                                                    class="side-menu__label">Remittance</span></a>
+                                        </li>
+                                        <li class="slide">
+                                            <a class="side-menu__item" data-bs-toggle="slide" href="/faq.html"><span
+                                                    class="side-menu__label">Faq's</span></a>
+                                        </li>
+                                        <li class="slide">
+                                            <a href="/contact.html" class="side-menu__item" data-bs-toggle="slide"><span
+                                                    class="side-menu__label">Contact</span></a>
+                                        </li>
+                                    </ul>
+                                    <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg"
+                                            fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
+                                            <path
+                                                d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z" />
+                                        </svg></div>
+                                    <div class="header-nav-right d-none d-lg-block">
+                                        <a href="login.html" class="btn ripple btn-min w-sm btn-outline-primary me-2"
+                                            target="_blank">Login
+                                        </a>
+                                        <a href="register.html" class="btn ripple btn-min w-sm btn-primary me-2"
+                                            target="_blank">Register
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6 my-auto">
-                                    <div id="carouselExampleControls" class="carousel carousel-dark-slide"
-                                        data-bs-ride="carousel">
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active" data-bs-interval="1000">
-                                                <img src="./assets/images/landing/hand-money.png" alt="">
-                                            </div>
-                                            <div class="carousel-item" data-bs-interval="1000">
-                                                <img src="./assets/images/landing/spray-dollar.png" alt="">
-                                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/APP-SIDEBAR-->
+                </div>
+                <div class="demo-screen-headline main-demo main-demo-1 spacing-top overflow-hidden reveal" id="home">
+                    <div class="container px-sm-0">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 mb-5 pb-5 animation-zidex pos-relative">
+                                <h4 class="fw-semibold mt-7">Welcome to Binarex </h4>
+                                <span class="fw-bolder text-center display-2">
+                                    Print Dollar Everyday Without Fail!
+                                </span>
+                                <h6 class="pb-3 fs-3">
+                                    Make incredicle income through our over 99% reliable
+                                    binarex robot</h6>
+
+                                <a href="#" target="_blank" class="btn ripple btn-min w-lg mb-3 me-2 btn-primary p-3"><i
+                                        class="fe fe-play me-2"></i> Learn More
+                                </a>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 my-auto">
+                                <div id="carouselExampleControls" class="carousel carousel-dark-slide"
+                                    data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="1000">
+                                            <img src="./assets/images/landing/hand-money.png" alt="">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="1000">
+                                            <img src="./assets/images/landing/spray-dollar.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -237,184 +228,183 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!--app-content open-->
-                <div class="main-content mt-0">
-                    <div class="side-app">
+            <!--app-content open-->
+            <div class="main-content mt-0">
+                <div class="side-app">
 
-                        <!-- CONTAINER -->
-                        <div class="main-container">
-                            <div class="">
+                    <!-- CONTAINER -->
+                    <div class="main-container">
+                        <div class="">
 
-                                <!-- Binarex Services -->
-                                <div class="sptb section bg-white" id="Features">
-                                    <div class="container">
-                                        <div class="row">
-                                            <h4 class="text-center fw-bolder fs-3">Services</h4>
-                                            <span class="landing-title"></span>
-                                            <span class="fw-bolder text-center display-2">Binarex Services</span>
-                                            <div class="row mt-7">
-                                                <!-- robat trading -->
-                                                <div class="col-lg-4 col-md-12">
-                                                    <div class="card features main-features main-features-1 wow fadeInUp reveal revealleft"
-                                                        data-wow-delay="0.1s">
-                                                        <div class="text-left">
-                                                            <h4 class="fw-bold mb-3 pb-2">Binarex Robot</h4>
-                                                            <p class="mb-4 pb-4">
-                                                                Stop staying awake all night, watching news, analysing
-                                                                the
-                                                                market,
-                                                                engaging complex market analysis and so on. Let our
-                                                                robot do
-                                                                just that for you!
-                                                                <br />&nbsp;
+                            <!-- Binarex Services -->
+                            <div class="sptb section bg-white" id="Features">
+                                <div class="container">
+                                    <div class="row">
+                                        <h4 class="text-center fw-bolder fs-3">Services</h4>
+                                        <span class="landing-title"></span>
+                                        <span class="fw-bolder text-center display-2">Binarex Services</span>
+                                        <div class="row mt-7">
+                                            <!-- robat trading -->
+                                            <div class="col-lg-4 col-md-12">
+                                                <div class="card features main-features main-features-1 wow fadeInUp reveal revealleft"
+                                                    data-wow-delay="0.1s">
+                                                    <div class="text-left">
+                                                        <h4 class="fw-bold mb-3 pb-2">Binarex Robot</h4>
+                                                        <p class="mb-4 pb-4">
+                                                            Stop staying awake all night, watching news, analysing
+                                                            the
+                                                            market,
+                                                            engaging complex market analysis and so on. Let our
+                                                            robot do
+                                                            just that for you!
+                                                            <br />&nbsp;
 
-                                                            </p>
-
-                                                            <button class="btn btn-primary p-2">
-                                                                Discover more...
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                                                <!-- account management with binarex -->
-                                                <div class="col-lg-4 col-md-12">
-                                                    <div class="card  features main-features main-features-2 wow fadeInUp reveal revealleft"
-                                                        data-wow-delay="0.1s">
-                                                        <div class="text-left">
-                                                            <h4 class="fw-bold mb-3 pb-2">Account Managment</h4>
-                                                            <p class="mb-4 pb-4">
-                                                                For constraint of time on the part of certain people,
-                                                                we accept to help them manage their account.
-                                                                This service is available to both individual and
-                                                                coporate entities!
-                                                                &nbsp;
-                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                &nbsp;
-                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                &nbsp; &nbsp;&nbsp; &nbsp;
-                                                            </p>
-                                                            <button class="btn btn-primary p-2">
-                                                                Discover more...
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- Financial and green consultancy -->
-                                                <div class="col-lg-4 col-md-12">
-                                                    <div class="card features main-features main-features-11 wow fadeInUp reveal revealleft"
-                                                        data-wow-delay="0.1s">
-                                                        <div class="text-left">
-                                                            <h4 class="fw-bold pb-2">Financial & Green Consultancy</h4>
-                                                            <p class="mb-4 pb-4">
-                                                                Are you an individual seeking to know what next to do
-                                                                with
-                                                                that fund
-                                                                to churn in commensurate returns to fund a cool
-                                                                lifestyle?
-                                                                Are you a financial co-operative desiring to make profit
-                                                                of
-                                                                10 months
-                                                                in just a numbers of weeks? &nbsp; &nbsp;&nbsp; &nbsp;
-                                                                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-                                                            </p>
-                                                            <button class="btn btn-primary p-2">
-                                                                Discover more...
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <!-- Testimonials -->
-                                <div class="testimonial-owl-landing section pb-0" id="Clients">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="card bg-transparent">
-                                                    <div class="card-body pt-5">
-                                                        <h4 class="text-center fw-semibold text-white-80">Testimonials
-                                                        </h4>
-                                                        <span class="landing-title"></span>
-                                                        <h2 class="text-center fw-bolder display-1 text-white mb-2">
-                                                            What Our Client Say
-                                                        </h2>
-                                                        <p class="text-center text-white mb-7">
-                                                            Know what our esteemed clients/customers have to say about
-                                                            us
                                                         </p>
-                                                        <div class="testimonial-carousel">
-                                                            <div class="slide text-center">
-                                                                <div class="row">
-                                                                    <div class="col-xl-8 col-md-12 d-block mx-auto">
-                                                                        <div class="testimonia">
-                                                                            <p class="text-white-80 fs-5">
-                                                                                <i
-                                                                                    class="fa fa-quote-left fs-1 text-white-80"></i>
-                                                                                Binarex has helped transformed my
-                                                                                finances
-                                                                                over and over.
-                                                                                I will recommend you to use them.
-                                                                            </p>
-                                                                            <h3 class="title">James Sobowale</h3>
-                                                                            <span class="post">Africa</span>
-                                                                            <div class="rating-stars block my-rating-5 mb-5"
-                                                                                data-rating="4"></div>
-                                                                            <div class="owl-controls clickable">
-                                                                                <div class="owl-pagination">
-                                                                                    <div class="owl-page active">
-                                                                                        <span class=""></span>
-                                                                                    </div>
-                                                                                    <div class="owl-page ">
-                                                                                        <span class=""></span>
-                                                                                    </div>
-                                                                                    <div class="owl-page">
-                                                                                        <span class=""></span>
-                                                                                    </div>
+
+                                                        <button class="btn btn-primary p-2">
+                                                            Discover more...
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- account management with binarex -->
+                                            <div class="col-lg-4 col-md-12">
+                                                <div class="card  features main-features main-features-2 wow fadeInUp reveal revealleft"
+                                                    data-wow-delay="0.1s">
+                                                    <div class="text-left">
+                                                        <h4 class="fw-bold mb-3 pb-2">Account Managment</h4>
+                                                        <p class="mb-4 pb-4">
+                                                            For constraint of time on the part of certain people,
+                                                            we accept to help them manage their account.
+                                                            This service is available to both individual and
+                                                            coporate entities!
+                                                            &nbsp;
+                                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                            &nbsp;
+                                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                            &nbsp; &nbsp;&nbsp; &nbsp;
+                                                        </p>
+                                                        <button class="btn btn-primary p-2">
+                                                            Discover more...
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Financial and green consultancy -->
+                                            <div class="col-lg-4 col-md-12">
+                                                <div class="card features main-features main-features-11 wow fadeInUp reveal revealleft"
+                                                    data-wow-delay="0.1s">
+                                                    <div class="text-left">
+                                                        <h4 class="fw-bold pb-2">Financial & Green Consultancy</h4>
+                                                        <p class="mb-4 pb-4">
+                                                            Are you an individual seeking to know what next to do
+                                                            with
+                                                            that fund
+                                                            to churn in commensurate returns to fund a cool
+                                                            lifestyle?
+                                                            Are you a financial co-operative desiring to make profit
+                                                            of
+                                                            10 months
+                                                            in just a numbers of weeks? &nbsp; &nbsp;&nbsp; &nbsp;
+                                                            &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                                                        </p>
+                                                        <button class="btn btn-primary p-2">
+                                                            Discover more...
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Testimonials -->
+                            <div class="testimonial-owl-landing section pb-0" id="Clients">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card bg-transparent">
+                                                <div class="card-body pt-5">
+                                                    <h4 class="text-center fw-semibold text-white-80">Testimonials
+                                                    </h4>
+                                                    <span class="landing-title"></span>
+                                                    <h2 class="text-center fw-bolder display-1 text-white mb-2">
+                                                        What Our Client Say
+                                                    </h2>
+                                                    <p class="text-center text-white mb-7">
+                                                        Know what our esteemed clients/customers have to say about
+                                                        us
+                                                    </p>
+                                                    <div class="testimonial-carousel">
+                                                        <div class="slide text-center">
+                                                            <div class="row">
+                                                                <div class="col-xl-8 col-md-12 d-block mx-auto">
+                                                                    <div class="testimonia">
+                                                                        <p class="text-white-80 fs-5">
+                                                                            <i
+                                                                                class="fa fa-quote-left fs-1 text-white-80"></i>
+                                                                            Binarex has helped transformed my
+                                                                            finances
+                                                                            over and over.
+                                                                            I will recommend you to use them.
+                                                                        </p>
+                                                                        <h3 class="title">James Sobowale</h3>
+                                                                        <span class="post">Africa</span>
+                                                                        <div class="rating-stars block my-rating-5 mb-5"
+                                                                            data-rating="4"></div>
+                                                                        <div class="owl-controls clickable">
+                                                                            <div class="owl-pagination">
+                                                                                <div class="owl-page active">
+                                                                                    <span class=""></span>
+                                                                                </div>
+                                                                                <div class="owl-page ">
+                                                                                    <span class=""></span>
+                                                                                </div>
+                                                                                <div class="owl-page">
+                                                                                    <span class=""></span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="slide text-center">
-                                                                <div class="row">
-                                                                    <div class="col-xl-8 col-md-12 d-block mx-auto">
-                                                                        <div class="testimonia">
-                                                                            <p class="text-white-80 fs-5"><i
-                                                                                    class="fa fa-quote-left fs-20"></i>
-                                                                                I will admit-originally the thought of
-                                                                                Binarex
-                                                                                scared the hell out of me. Binarex has
-                                                                                delivered
-                                                                                great results and have convinced me of
-                                                                                the
-                                                                                value in the
-                                                                                Binary Market.
-                                                                            </p>
-                                                                            <div class="testimonia-data">
-                                                                                <h3 class="title">Ade Smith</h3>
-                                                                                <span class="post">Europe</span>
-                                                                                <div class="rating-stars">
-                                                                                    <div class="rating-stars block my-rating-5 mb-5"
-                                                                                        data-rating="5"></div>
-                                                                                    <div class="owl-controls clickable">
-                                                                                        <div class="owl-pagination">
-                                                                                            <div class="owl-page ">
-                                                                                                <span class=""></span>
-                                                                                            </div>
-                                                                                            <div
-                                                                                                class="owl-page active">
-                                                                                                <span class=""></span>
-                                                                                            </div>
-                                                                                            <div class="owl-page">
-                                                                                                <span class=""></span>
-                                                                                            </div>
+                                                        </div>
+                                                        <div class="slide text-center">
+                                                            <div class="row">
+                                                                <div class="col-xl-8 col-md-12 d-block mx-auto">
+                                                                    <div class="testimonia">
+                                                                        <p class="text-white-80 fs-5"><i
+                                                                                class="fa fa-quote-left fs-20"></i>
+                                                                            I will admit-originally the thought of
+                                                                            Binarex
+                                                                            scared the hell out of me. Binarex has
+                                                                            delivered
+                                                                            great results and have convinced me of
+                                                                            the
+                                                                            value in the
+                                                                            Binary Market.
+                                                                        </p>
+                                                                        <div class="testimonia-data">
+                                                                            <h3 class="title">Ade Smith</h3>
+                                                                            <span class="post">Europe</span>
+                                                                            <div class="rating-stars">
+                                                                                <div class="rating-stars block my-rating-5 mb-5"
+                                                                                    data-rating="5"></div>
+                                                                                <div class="owl-controls clickable">
+                                                                                    <div class="owl-pagination">
+                                                                                        <div class="owl-page ">
+                                                                                            <span class=""></span>
+                                                                                        </div>
+                                                                                        <div class="owl-page active">
+                                                                                            <span class=""></span>
+                                                                                        </div>
+                                                                                        <div class="owl-page">
+                                                                                            <span class=""></span>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -423,37 +413,36 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="slide text-center">
-                                                                <div class="row">
-                                                                    <div class="col-xl-8 col-md-12 d-block mx-auto">
-                                                                        <div class="testimonia">
-                                                                            <p class="text-white-80 fs-5"><i
-                                                                                    class="fa fa-quote-left fs-20"></i>
-                                                                                We would like to express our
-                                                                                satisfaction on
-                                                                                the
-                                                                                co-operation regarding the Account
-                                                                                Management.
-                                                                                Extremely smooth and efficient.
-                                                                            </p>
-                                                                            <div class="testimonia-data">
-                                                                                <h3 class="title">Synthia Janet</h3>
-                                                                                <span class="post">UK</span>
-                                                                                <div class="rating-stars">
-                                                                                    <div class="rating-stars block my-rating-5 mb-5"
-                                                                                        data-rating="5"></div>
-                                                                                    <div class="owl-controls clickable">
-                                                                                        <div class="owl-pagination">
-                                                                                            <div class="owl-page ">
-                                                                                                <span class=""></span>
-                                                                                            </div>
-                                                                                            <div class="owl-page">
-                                                                                                <span class=""></span>
-                                                                                            </div>
-                                                                                            <div
-                                                                                                class="owl-page active">
-                                                                                                <span class=""></span>
-                                                                                            </div>
+                                                        </div>
+                                                        <div class="slide text-center">
+                                                            <div class="row">
+                                                                <div class="col-xl-8 col-md-12 d-block mx-auto">
+                                                                    <div class="testimonia">
+                                                                        <p class="text-white-80 fs-5"><i
+                                                                                class="fa fa-quote-left fs-20"></i>
+                                                                            We would like to express our
+                                                                            satisfaction on
+                                                                            the
+                                                                            co-operation regarding the Account
+                                                                            Management.
+                                                                            Extremely smooth and efficient.
+                                                                        </p>
+                                                                        <div class="testimonia-data">
+                                                                            <h3 class="title">Synthia Janet</h3>
+                                                                            <span class="post">UK</span>
+                                                                            <div class="rating-stars">
+                                                                                <div class="rating-stars block my-rating-5 mb-5"
+                                                                                    data-rating="5"></div>
+                                                                                <div class="owl-controls clickable">
+                                                                                    <div class="owl-pagination">
+                                                                                        <div class="owl-page ">
+                                                                                            <span class=""></span>
+                                                                                        </div>
+                                                                                        <div class="owl-page">
+                                                                                            <span class=""></span>
+                                                                                        </div>
+                                                                                        <div class="owl-page active">
+                                                                                            <span class=""></span>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -469,7 +458,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                < <!-- Contact Page -->
+                            </div>
+                            < <!-- Contact Page -->
                                 <div class="card card-shadow reveal">
                                     <span class="text-center fw-bolder display-4 mb-0 mt-2">Get in Touch with <span
                                             class="text-danger fw-bolder display-4">US.</span></span>
@@ -484,14 +474,13 @@
                                                                     <div class="col-xl-3 col-md-6 col-lg-6">
                                                                         <div class="card">
                                                                             <div class="card-body p-0">
-                                                                            <div class="counter-status">
+                                                                                <div class="counter-status">
                                                                                     <div
                                                                                         class="counter-icon bg-primary-transparent box-shadow-primary">
                                                                                         <i
                                                                                             class="fe fe-map-pin text-primary fs-23"></i>
                                                                                     </div>
-                                                                                    <h4
-                                                                                        class="mb-2 fw-semibold">
+                                                                                    <h4 class="mb-2 fw-semibold">
                                                                                         Main Branch</h4>
                                                                                     <p>San Francisco, CA </p>
                                                                                 </div>
@@ -507,8 +496,7 @@
                                                                                         <i
                                                                                             class="fe fe-headphones text-secondary fs-23"></i>
                                                                                     </div>
-                                                                                    <h4
-                                                                                        class="mb-2 fw-semibold">
+                                                                                    <h4 class="mb-2 fw-semibold">
                                                                                         Phone</h4>
                                                                                     <p>
                                                                                         <a href="tel:+18175122820"
@@ -529,8 +517,7 @@
                                                                                         <i
                                                                                             class="fe fe-mail text-success fs-23"></i>
                                                                                     </div>
-                                                                                    <h4
-                                                                                        class="mb-2 fw-semibold">
+                                                                                    <h4 class="mb-2 fw-semibold">
                                                                                         Contact</h4>
                                                                                     <p>
                                                                                         <a href="mailto:support@binarex.biz"
@@ -551,8 +538,7 @@
                                                                                         <i
                                                                                             class="fe fe-airplay text-danger fs-23"></i>
                                                                                     </div>
-                                                                                    <h4
-                                                                                        class="mb-2 fw-semibold">
+                                                                                    <h4 class="mb-2 fw-semibold">
                                                                                         Working Hours</h4>
                                                                                     <p class="mb-0">Monday -
                                                                                         Friday: 9am - 6pm</p>
@@ -685,7 +671,8 @@
                                                                     <h1 class="fw-semibold display-1 text-white">
                                                                         Sign Up Now
                                                                     </h1>
-                                                                    <a href="https://deriv.com/?t=BWBcs5_5Pk7tgDKFS0T1AWNd7ZgqdRLk&utm_source=affiliate_175806&utm_medium=affiliate&utm_campaign=MyAffiliates&utm_content=&referrer=binarex.info" target="_blank"
+                                                                    <a href="https://deriv.com/?t=BWBcs5_5Pk7tgDKFS0T1AWNd7ZgqdRLk&utm_source=affiliate_175806&utm_medium=affiliate&utm_campaign=MyAffiliates&utm_content=&referrer=binarex.info"
+                                                                        target="_blank"
                                                                         class="btn ripple btn-min w-lg mb-3 me-2 btn-danger p-3">
                                                                         Register with Our Broker (Deriv.com)
                                                                     </a>
@@ -710,14 +697,14 @@
                                         <div class="row pt-6">
                                             <div class="col-md-12">
                                                 <div class="card bg-transparent">
-                                                    
-                                                        <span class="text-center fw-bolder display-1">
-                                                            Binarex Robot
-                                                        </span>
-                                                        <span class="text-center">
-                                                            See video of our robot in action
-                                                        </span>
-                                                    
+
+                                                    <span class="text-center fw-bolder display-1">
+                                                        Binarex Robot
+                                                    </span>
+                                                    <span class="text-center">
+                                                        See video of our robot in action
+                                                    </span>
+
                                                     <div class="card-body pt-5">
                                                         <div class="embed-responsive embed-responsive-16by9">
                                                             <iframe src="https://youtube.com/embed/AKDlrWtSC0s"
@@ -737,120 +724,121 @@
                                     </div>
                                 </div>
 
-                                
 
-                            </div>
-                        </div>
-                        <!-- CONTAINER CLOSED-->
-                    </div>
-                </div>
-                <!--app-content closed-->
-            </div>
 
-            <!-- FOOTER OPEN -->
-            <div class="demo-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="top-footer">
-                                    <div class="row">
-                                        <div class="col-lg-5 col-sm-12 col-md-12 reveal revealleft">
-                                            <h6>Binarex</h6>
-                                            <p>
-                                                Make incredible income through our over 99% reliable <b>Binarex</b>
-                                                robot.
-                                            </p>
-                                            <p class="mb-5 mb-lg-2">
-                                                Are you an individual seeking to know what next to do with that fund
-                                                to churn in commensurate returnds to fund a cool lifestyle? Are you
-                                                a financial co-operative desiring to make profit of 10 months in just
-                                                a number of weeks? Are you a company desiring to boost the revenue
-                                                base of your company? Our services are for you.
-                                            </p>
-                                        </div>
-                                        <div class="col-lg-3 col-sm-6 col-md-4 reveal revealleft">
-                                            <h6>Quick Links</h6>
-                                            <ul class="list-unstyled mb-5 mb-lg-0">
-                                                <li><a href="#">Binarex Agric Ebook</a></li>
-                                                <li><a href="#">Financial & Green Consultancy</a></li>
-                                                <li><a href="#">Account Management</a></li>
-                                                <li><a href="#">WhatsApp Bulk Message Sender</a></li>
-                                                <li><a href="#">Binarex Robots</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-4 col-sm-12 col-md-4 reveal revealleft">
-                                                <p class="fw-semibold fs-5">Get in touch</p>
-                                                
-                                            
-                                            <div class="btn-list mt-6">
-                                                <button type="button" class="btn btn-icon rounded-pill">
-                                                    <a href="https://api.whatsapp.com/send/?phone=18175122820&text=Hi%21%21&app_absent=0">
-                                                        <i class="fa-brands fa-whatsapp fa-xl"></i>
-                                                    </a>
-                                                </button>
-                                                <button type="button" class="btn btn-icon rounded-pill">
-                                                    <a href="https://telegram.me/binarex">
-                                                        <i class="fa-brands fa-telegram fa-xl"></i>
-                                                    </a>
-                                                </button>
-                                            </div>
-                                            <hr>
-                                        </div>
-                                    </div>
-                                </div>
-                                <footer class="main-footer px-0 pb-0 text-center">
-                                    <div class="row ">
-                                        <div class="col-md-12 col-sm-12">
-                                            &copy; <span id="year"></span> <a href="javascript:void(0)">Binarex</a>.
-                                            All rights reserved.
-                                        </div>
-                                    </div>
-                                </footer>
-                            </div>
                         </div>
                     </div>
+                    <!-- CONTAINER CLOSED-->
                 </div>
             </div>
-            <!-- FOOTER CLOSED -->
+            <!--app-content closed-->
         </div>
 
-        <!-- BACK-TO-TOP -->
-        <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+        <!-- FOOTER OPEN -->
+        <div class="demo-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="top-footer">
+                                <div class="row">
+                                    <div class="col-lg-5 col-sm-12 col-md-12 reveal revealleft">
+                                        <h6>Binarex</h6>
+                                        <p>
+                                            Make incredible income through our over 99% reliable <b>Binarex</b>
+                                            robot.
+                                        </p>
+                                        <p class="mb-5 mb-lg-2">
+                                            Are you an individual seeking to know what next to do with that fund
+                                            to churn in commensurate returnds to fund a cool lifestyle? Are you
+                                            a financial co-operative desiring to make profit of 10 months in just
+                                            a number of weeks? Are you a company desiring to boost the revenue
+                                            base of your company? Our services are for you.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-md-4 reveal revealleft">
+                                        <h6>Quick Links</h6>
+                                        <ul class="list-unstyled mb-5 mb-lg-0">
+                                            <li><a href="#">Binarex Agric Ebook</a></li>
+                                            <li><a href="#">Financial & Green Consultancy</a></li>
+                                            <li><a href="#">Account Management</a></li>
+                                            <li><a href="#">WhatsApp Bulk Message Sender</a></li>
+                                            <li><a href="#">Binarex Robots</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12 col-md-4 reveal revealleft">
+                                        <p class="fw-semibold fs-5">Get in touch</p>
 
-        <!-- JQUERY JS -->
-        <script src="../assets/js/jquery.min.js"></script>
 
-        <!-- BOOTSTRAP JS -->
-        <script src="../assets/plugins/bootstrap/js/popper.min.js"></script>
-        <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+                                        <div class="btn-list mt-6">
+                                            <button type="button" class="btn btn-icon rounded-pill">
+                                                <a
+                                                    href="https://api.whatsapp.com/send/?phone=18175122820&text=Hi%21%21&app_absent=0">
+                                                    <i class="fa-brands fa-whatsapp fa-xl"></i>
+                                                </a>
+                                            </button>
+                                            <button type="button" class="btn btn-icon rounded-pill">
+                                                <a href="https://telegram.me/binarex">
+                                                    <i class="fa-brands fa-telegram fa-xl"></i>
+                                                </a>
+                                            </button>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="main-footer px-0 pb-0 text-center">
+                                <div class="row ">
+                                    <div class="col-md-12 col-sm-12">
+                                        &copy; <span id="year"></span> <a href="javascript:void(0)">Binarex</a>.
+                                        All rights reserved.
+                                    </div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER CLOSED -->
+    </div>
 
-        <!-- COUNTERS JS-->
-        <script src="../assets/plugins/counters/counterup.min.js"></script>
-        <script src="../assets/plugins/counters/waypoints.min.js"></script>
-        <script src="../assets/plugins/counters/counters-1.js"></script>
+    <!-- BACK-TO-TOP -->
+    <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-        <!-- Perfect SCROLLBAR JS-->
-        <script src="../assets/plugins/owl-carousel/owl.carousel.js"></script>
-        <script src="../assets/plugins/company-slider/slider.js"></script>
+    <!-- JQUERY JS -->
+    <script src="../assets/js/jquery.min.js"></script>
 
-        <!-- SIDE-MENU JS -->
-        <script src="../assets/plugins/sidemenu/sidemenu.js"></script>
+    <!-- BOOTSTRAP JS -->
+    <script src="../assets/plugins/bootstrap/js/popper.min.js"></script>
+    <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
-        <!-- Star Rating Js-->
-        <script src="../assets/plugins/rating/jquery-rate-picker.js"></script>
-        <script src="../assets/plugins/rating/rating-picker.js"></script>
+    <!-- COUNTERS JS-->
+    <script src="../assets/plugins/counters/counterup.min.js"></script>
+    <script src="../assets/plugins/counters/waypoints.min.js"></script>
+    <script src="../assets/plugins/counters/counters-1.js"></script>
 
-        <!-- Star Rating-1 Js-->
-        <script src="../assets/plugins/ratings-2/jquery.star-rating.js"></script>
-        <script src="../assets/plugins/ratings-2/star-rating.js"></script>
+    <!-- Perfect SCROLLBAR JS-->
+    <script src="../assets/plugins/owl-carousel/owl.carousel.js"></script>
+    <script src="../assets/plugins/company-slider/slider.js"></script>
 
-        <!-- Sticky js -->
-        <script src="../assets/js/sticky.js"></script>
+    <!-- SIDE-MENU JS -->
+    <script src="../assets/plugins/sidemenu/sidemenu.js"></script>
 
-        <!-- CUSTOM JS -->
-        <script src="../assets/js/landing.js"></script>
+    <!-- Star Rating Js-->
+    <script src="../assets/plugins/rating/jquery-rate-picker.js"></script>
+    <script src="../assets/plugins/rating/rating-picker.js"></script>
 
-    </body>
+    <!-- Star Rating-1 Js-->
+    <script src="../assets/plugins/ratings-2/jquery.star-rating.js"></script>
+    <script src="../assets/plugins/ratings-2/star-rating.js"></script>
 
-    </html>
+    <!-- Sticky js -->
+    <script src="../assets/js/sticky.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="../assets/js/landing.js"></script>
+
+</body>
+
+</html>
